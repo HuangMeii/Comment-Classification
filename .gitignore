@@ -59,15 +59,15 @@ coverage.xml
 dmypy.json
 
 # Machine Learning Models
-ml_model_storage/
+ml_model_storage/*
 !ml_model_storage/.gitkeep
 
 # Data Files
-data/raw/
-data/processed/
-data/cache/
+data/raw/*
 !data/raw/.gitkeep
+data/processed/*
 !data/processed/.gitkeep
+data/cache/*
 !data/cache/.gitkeep
 
 # Logs
@@ -133,3 +133,6 @@ airflow-webserver.pid
 
 # Backup files
 *.backup
+
+# Always include any .gitkeep files so empty dirs are tracked
+!**/.gitkeep
