@@ -61,6 +61,13 @@ dmypy.json
 # Machine Learning Models
 ml_model_storage/*
 !ml_model_storage/.gitkeep
+# Allow tracking trained models and their subfolders
+!ml_model_storage/trained/
+!ml_model_storage/trained/**
+!ml_model_storage/trained/lightgbm/
+!ml_model_storage/trained/lightgbm/**
+!ml_model_storage/trained/logreg/
+!ml_model_storage/trained/logreg/**
 
 # Data Files
 data/raw/*
