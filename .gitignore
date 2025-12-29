@@ -70,10 +70,8 @@ ml_model_storage/*
 !ml_model_storage/trained/logreg/**
 
 # Data Files
-data/raw/*
-!data/raw/.gitkeep
-data/processed/*
-!data/processed/.gitkeep
+# Keep raw and processed data tracked (no global ignore here)
+# If you want to ignore specific large files, add rules below.
 data/cache/*
 !data/cache/.gitkeep
 
