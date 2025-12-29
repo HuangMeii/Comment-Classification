@@ -81,7 +81,12 @@ logs/*.txt
 !logs/.gitkeep
 
 # Temporary files
-temp/
+# Ignore most temp files but allow tracking specific temp subfolders
+temp/*
+!temp/feature_cache/
+!temp/feature_cache/**
+!temp/model_downloads/
+!temp/model_downloads/**
 tmp/
 *.tmp
 *.temp
